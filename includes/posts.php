@@ -14,39 +14,26 @@ class Blog {
     }
 
 }
-
 class Posts extends Blog {
 
     public function __construct() {
         parent::__construct();
     }
-
     public function getPosts() {
         
     }
-
     public function viewPost($postId) {
-        
     }
-
 }
-
 class Comments extends Blog {
 
     public function __construct() {
         parent::__construct();
     }
-
     public function commentNumber($postId) {
-        
     }
-
     public function getComments($postId) {
-        
     }
-
     public function addComment() {
-        
     }
-
 }
